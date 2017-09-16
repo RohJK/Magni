@@ -4,15 +4,19 @@
 휴대용 현미경을 장착한 안드로이드 Device (Smart Phone) 맞춤 카메라 S/W 
 
 2. 개발환경
+  
   2.1 프로젝트 환경
+  
     l Development Tools : Android Studio 1.1.0 l Android Version : 4.3 Jelly Bean l Project Name : Camera_view
+    
   2.2 시스템 권장사항
+  
     l O.S : windows vista,7,8,8.1, Mac OS l Device : 4.3 Jelly Bean 이상 Device            720p(1280*720) 이상 Display
     
 
 
 
-#Magni V 2.6 수정사항
+# Magni V 2.6 수정사항
                         2016_03_24
 -------------------------------------------------------------
 
