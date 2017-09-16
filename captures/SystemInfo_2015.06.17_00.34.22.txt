@@ -1,0 +1,87 @@
+Applications Graphics Acceleration Info:
+Uptime: 85025770 Realtime: 127309610
+
+** Graphics info for pid 28415 [jelly.camera.rohjk93.kr.ac.kpu.camera_jelly] **
+
+Recent DisplayList operations
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+        RestoreToCount
+      DrawDisplayList
+        DrawDisplayList
+          Save
+          ConcatMatrix
+          DrawBitmap
+          RestoreToCount
+      DrawDisplayList
+        DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+        DrawDisplayList
+      DrawDisplayList
+        DrawBitmap
+    DrawPatch
+DrawRect
+DrawColor
+DrawPatch
+DrawPatch
+DrawBitmap
+DrawBitmap
+DrawText
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmap
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         34934112 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache                256 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  35982944 bytes, 34.32 MB
+
+Profile data in ms:
+
+	jelly.camera.rohjk93.kr.ac.kpu.camera_jelly/jelly.camera.rohjk93.kr.ac.kpu.camera_jelly.CaptureActivity/android.view.ViewRootImpl@42237e80
+View hierarchy:
+
+  jelly.camera.rohjk93.kr.ac.kpu.camera_jelly/jelly.camera.rohjk93.kr.ac.kpu.camera_jelly.CaptureActivity/android.view.ViewRootImpl@42237e80
+  32 views, 2.24 kB of display lists, 2 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        32
+Total DisplayList:  2.24 kB
+

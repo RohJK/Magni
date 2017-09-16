@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="bluetooth.rohjk93.kr.ac.kpu.camera2.CameraActivity"
+    android:background="@color/background_material_dark">
+
+
+    <SurfaceView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:id="@+id/CAMERAsurfaceView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <SeekBar
+            android:paddingRight="110dp"
+            android:paddingLeft="110dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ZOOMSEEKBAR"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ZOOM"
+            android:id="@+id/textView"
+            android:layout_above="@+id/ZOOMSEEKBAR"
+            android:textColor="@color/button_material_light"
+            android:layout_marginBottom="-5dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/WATERMARKIMAGEVIEW"
+            android:layout_gravity="right|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rsz_watermark4_3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="38dp">
+
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="30"/>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:id="@+id/GALLERYBUTTON2"
+            android:src="@drawable/ic_action_collection"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="64"/>
+
+        <ImageButton
+
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:id="@+id/SIZEbutton"
+            android:src="@drawable/ic_action_crop"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="64"/>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:id="@+id/WBBUTTON"
+            android:src="@drawable/whitebalance"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="64"/>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:id="@+id/HELPBUTTON"
+            android:src="@drawable/ic_action_settings"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="64"/>
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:id="@+id/SWITCHRECORDER"
+            android:src="@drawable/ic_action_switch_video"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+            />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="64"/>
+
+        <ImageButton
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:id="@+id/FLASHBUTTON"
+        android:src="@drawable/flash_on"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:adjustViewBounds="true"
+        />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="33dp"
+            android:id="@+id/LOGOIMAGEVIEW"
+            android:paddingBottom="10dp"
+            android:src="@drawable/siwon_logo_noback"
+            android:layout_gravity="left|bottom" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="680"/>
+
+        <ImageButton
+
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="130"
+            android:id="@+id/SHUTTERBTN"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_camera"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:adjustViewBounds="true"
+         />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/center"
+        android:id="@+id/CENTERIMAGE2" />
+
+</RelativeLayout>

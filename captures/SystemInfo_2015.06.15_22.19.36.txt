@@ -1,0 +1,32 @@
+Applications Memory Usage (kB):
+Uptime: 26783578 Realtime: 32811632
+
+** MEMINFO in pid 14973 [jelly.camera.rohjk93.kr.ac.kpu.camera_jelly] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap       16       16        0        0     5288     4731      260
+  Dalvik Heap    28336    28268        0        0    32532    31046     1486
+ Dalvik Other     1125     1068        0        0                           
+        Stack      112      112        0        0                           
+    Other dev     6172     1456        4        0                           
+     .so mmap     1102      812       48        0                           
+    .apk mmap       78        0        8        0                           
+    .ttf mmap       37        0        0        0                           
+    .dex mmap      578        8      416        0                           
+   Other mmap        5        4        0        0                           
+      Unknown     1627     1620        0        0                           
+        TOTAL    39188    33364      476        0    37820    35777     1746
+ 
+ Objects
+               Views:       53         ViewRootImpl:        2
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:        9        Proxy Binders:       22
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

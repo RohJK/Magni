@@ -1,0 +1,83 @@
+Applications Graphics Acceleration Info:
+Uptime: 26787821 Realtime: 32815875
+
+** Graphics info for pid 14973 [jelly.camera.rohjk93.kr.ac.kpu.camera_jelly] **
+
+Recent DisplayList operations
+        Save
+        ClipRect
+        DrawDisplayList
+          DrawPatch
+          DrawDisplayList
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+          DrawDisplayList
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+        RestoreToCount
+DrawPatch
+DrawPatch
+DrawPatch
+multiDraw
+  DrawPatch
+DrawText
+DrawRect
+multiDraw
+  DrawText
+DrawDisplayList
+  DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+        DrawPatch
+        DrawPatch
+        Save
+        ClipRect
+        DrawDisplayList
+          DrawPatch
+          DrawDisplayList
+          DrawDisplayList
+            DrawPatch
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+        RestoreToCount
+DrawPatch
+DrawPatch
+DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         10159504 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache               1920 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  11210000 bytes, 10.69 MB
+
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+

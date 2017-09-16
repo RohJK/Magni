@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MAGNI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_white_balance">WhiteBalanceActivity</string>
+    <string name="title_activity_save_image_view">saveImageViewActivity</string>
+    <string name="siwon_corpyright">COPYRIGHT (C) 2006 SIWON OPTICAL TECHNOLOGY CO. LTD</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="corp_intro">"시원광기술은 광학기기 및 광학 부품을 고객의\n사양에 따라 설계, 제조하는 회사입니다"</string>
+    <string name="copr_infomation">경기도 안양시 동안구 호계동 555-9\n디오벨리 519호\n\nT. 031-479-6021\nF. 031-479-6020</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_move">moveActivity</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_calibration_capture">CalibrationCaptureActivity</string>
+    <string name="title_activity_calibration_capture_check">CalibrationCaptureCheckActivity</string>
+    <string name="title_activity_grid_line">GridLineActivity</string>
+    <string name="title_activity_image_load_length_measurement">ImageLoadLengthMeasurement</string>
+</resources>

@@ -1,0 +1,105 @@
+AGGREGATED OVER LAST 24 HOURS:
+Per-Package Stats:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+               TOTAL: 2.6% (61MB-102MB-116MB/52MB-98MB-113MB over 14)
+                 Top: 2.6% (61MB-102MB-116MB/52MB-98MB-113MB over 14)
+          (Last Act): 0.05%
+            (Cached): 0.37% (55MB-55MB-55MB/54MB-54MB-54MB over 1)
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+               TOTAL: 0.63% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+                 Top: 0.63% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+          (Last Act): 0.02%
+            (Cached): 0.40% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Summary:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+           TOTAL: 2.6% (61MB-102MB-116MB/52MB-98MB-113MB over 14)
+             Top: 2.6% (61MB-102MB-116MB/52MB-98MB-113MB over 14)
+      (Last Act): 0.05%
+        (Cached): 0.37% (55MB-55MB-55MB/54MB-54MB-54MB over 1)
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+           TOTAL: 0.63% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+             Top: 0.63% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+      (Last Act): 0.02%
+        (Cached): 0.40% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Run time Stats:
+  SOff/Norm: +12h6m53s670ms
+       Mod : +56s656ms
+  SOn /Norm: +1h44m39s483ms
+      TOTAL: +13h52m29s809ms
+
+          Start time: 2015-06-14 23:03:20
+  Total elapsed time: +23h15m56s836ms (partial) libdvm.so chromeview
+
+AGGREGATED OVER LAST 3 HOURS:
+Per-Package Stats:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+               TOTAL: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+                 Top: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+          (Last Act): 0.37%
+            (Cached): 0.00%
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+               TOTAL: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+                 Top: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+          (Last Act): 0.14%
+            (Cached): 2.9% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Summary:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+           TOTAL: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+             Top: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+      (Last Act): 0.37%
+        (Cached): 0.00%
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+           TOTAL: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+             Top: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+      (Last Act): 0.14%
+        (Cached): 2.9% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Run time Stats:
+  SOff/Norm: +1h39m10s27ms
+  SOn /Norm: +16m30s151ms
+      TOTAL: +1h55m40s178ms
+
+          Start time: 2015-06-15 19:51:36
+  Total elapsed time: +2h28m8s252ms (partial) libdvm.so chromeview
+
+CURRENT STATS:
+Per-Package Stats:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+               TOTAL: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+                 Top: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+          (Last Act): 0.37%
+            (Cached): 0.00%
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+      * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+               TOTAL: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+                 Top: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+          (Last Act): 0.14%
+            (Cached): 2.8% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Summary:
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a323:
+           TOTAL: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+             Top: 18% (61MB-107MB-116MB/55MB-104MB-113MB over 12)
+      (Last Act): 0.37%
+        (Cached): 0.00%
+  * jelly.camera.rohjk93.kr.ac.kpu.camera_jelly / u0a324:
+           TOTAL: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+             Top: 4.6% (58MB-93MB-112MB/42MB-88MB-110MB over 8)
+      (Last Act): 0.14%
+        (Cached): 2.8% (38MB-41MB-50MB/33MB-36MB-46MB over 4)
+
+Run time Stats:
+  SOff/Norm: +1h39m9s325ms (running)
+  SOn /Norm: +16m30s151ms
+      TOTAL: +1h55m39s476ms
+
+          Start time: 2015-06-15 19:51:36
+  Total elapsed time: +2h28m8s344ms (partial) libdvm.so chromeview

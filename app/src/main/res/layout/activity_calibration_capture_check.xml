@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/SaveImageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="5mm 범위 지정"
+        android:id="@+id/CalibRAtionButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <view
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="jelly.camera.rohjk93.kr.ac.kpu.camera_jelly.CalibrationPointView"
+        android:id="@+id/CalibPointview"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/CalibRAtionButton" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/CalibPointview"
+        android:layout_centerHorizontal="true"
+        android:weightSum="100"
+        android:id="@+id/PointLinear"
+        android:visibility="invisible">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/X1Button"
+            android:text="P1"
+            android:background="#ffffffff"
+            android:textColor="#ff0000ff"
+            android:layout_weight="25"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/X2Button"
+            android:text="P2"
+            android:background="#ffffffff"
+            android:textColor="#ff00ff00"
+            android:layout_weight="25"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LineButton"
+            android:text="Pixel"
+            android:layout_weight="25"
+            android:background="#ffffffff"
+            android:textColor="#ff000000"
+            android:visibility="visible" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LineOKButton"
+            android:text="OK"
+            android:background="#ffececec"
+            android:textColor="#ff000000"
+            android:layout_weight="25"
+            />
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    OK    "
+        android:id="@+id/OKBUTTON"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff"
+        android:textColor="#ff000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/LineLengthTextView"
+        android:layout_above="@+id/CalibRAtionButton"
+        android:background="#ffffe8da" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="           사진촬영           "
+        android:background="#ffffffff"
+        android:textColor="#ff000000"
+        android:id="@+id/SetCalibImageButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="  사진을 확대해 5mm 범위를 지정해주세요 "
+        android:id="@+id/textView13"
+        android:background="#fffffbca"
+        android:textColor="#ff000000"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/OKBUTTON"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   갤러리에서 가져오기   "
+        android:background="#ffffffff"
+        android:textColor="#ff000000"
+        android:layout_marginTop="50dp"
+        android:id="@+id/GetCalibImagebutton"
+        android:layout_below="@+id/SetCalibImageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  CANCEL  "
+        android:background="#ffffffff"
+        android:textColor="#ff000000"
+        android:id="@+id/CANCELbutton"
+        android:layout_alignTop="@+id/OKBUTTON"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
